@@ -1,0 +1,62 @@
+
+.login_box {
+
+	display: -webkit-box;
+
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.count,
+.psw {
+	border: 1px solid #CCCCCC;
+	/* line-height: 100upx; */
+	border-radius: 250rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 85%;
+	padding: 20rpx;
+	margin: 20rpx;
+	/* height: 100upx; */
+}
+.psw>text {
+	margin-left: 20rpx;
+	color: #CCCCCC;
+	font-size: 32rpx;
+}
+.count>text {
+	margin-left: 20rpx;
+	font-size: 32rpx;
+	color: #CCCCCC;
+}
+.text_box {
+	position: fixed;
+	bottom: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.text_box text {
+	color: #2C405A;
+	margin: 10rpx;
+}
+button {
+	border-radius: 30rpx;
+	margin-top: 50rpx;
+	width: 85%;
+}
+

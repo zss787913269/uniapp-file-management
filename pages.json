@@ -1,0 +1,82 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/component/login/login"
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "聚邦立本"
+			}
+		},
+		{
+			"path": "pages/component/new_file"
+		},
+		{
+			"path": "pages/component/sort"
+		},
+		{
+			"path": "pages/component/search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+
+			}
+		},
+		{
+			"path": "pages/component/me",
+			"style": {
+				"navigationBarTitleText": "聚邦立本"
+
+			}
+		},
+		{
+			"path": "pages/component/cla"
+		},
+		{
+			"path": "pages/component/upload"
+		},
+		{
+			"path": "pages/component/select"
+		},
+		{
+			"path": "pages/component/login/register"
+		},
+		{
+			"path":"pages/component/uploading"
+		}
+
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/images/home_nor.png",
+				"selectedIconPath": "static/images/home_pre.png"
+				
+			},
+			{
+				"pagePath": "pages/component/search",
+				"iconPath": "static/images/Upload.png",
+				"selectedIconPath": "static/images/Upload.png"
+				
+			},
+			{
+				"pagePath": "pages/component/me",
+				"iconPath": "static/images/mine_nor.png",
+				"selectedIconPath": "static/images/mine_pre.png"
+				
+			}
+		]
+	}
+
+}

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/component/login/login",
+    "pages/index/index",
+    "pages/component/new_file",
+    "pages/component/sort",
+    "pages/component/search",
+    "pages/component/me",
+    "pages/component/cla",
+    "pages/component/upload",
+    "pages/component/select",
+    "pages/component/login/register"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/images/home_nor.png",
+        "selectedIconPath": "static/images/home_pre.png"
+      },
+      {
+        "pagePath": "pages/component/search",
+        "iconPath": "static/images/Upload.png",
+        "selectedIconPath": "static/images/Upload.png"
+      },
+      {
+        "pagePath": "pages/component/me",
+        "iconPath": "static/images/mine_nor.png",
+        "selectedIconPath": "static/images/mine_pre.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "jblb",
+  "compilerVersion": "2.1.1",
+  "usingComponents": {}
+}
